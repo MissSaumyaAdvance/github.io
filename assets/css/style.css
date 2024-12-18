@@ -34,15 +34,15 @@ Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
 :root {
-    --main-color: #444;
-    --heading-color: #000;
-    --primary-color: #448C74;
-    --lighter-color: #444;
-    --subtitle-color: #444;
-    --black-color: #000;
+    --main-color: #121212;
+    --heading-color: #323131;
+    --primary-color: #8c7f44;
+    --lighter-color: #323131;
+    --subtitle-color: #323131;
+    --black-color: #121212;
     --border-color: rgba(119, 119, 125, .2);
     --button-border: rgba(119, 119, 125, .2);
-    --body-background: #ECF3F1;
+    --body-background: #f0e6e0;
     --grey-bg: #E6EAEE;
 }
 
@@ -930,7 +930,11 @@ html {
 .main-header .logo img {
     width: 120px;
 }
-
+.main-header .logo a{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
 .main-header .nice-select .current {
     color: white;
 }
@@ -1283,7 +1287,7 @@ html {
 }
 
 .about-image-part img {
-	border: 2px dashed #448C74;
+	border: 2px dashed #8c7444;
 	padding:10px;
 	border-radius: 50%;
 	margin-bottom: 30px;
@@ -1342,7 +1346,7 @@ color: transparent;
 .adress-field ul li {}
 
 .adress-field ul li i {
-    color: #448C74;
+    color: #8c7444;
     margin-right: 10px;
     font-size: 13px;
 }
@@ -1515,7 +1519,7 @@ color: transparent;
 
 .service-item i {
     font-size: 60px;
-    color: #448C74;
+    color: #8c7444;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2140,14 +2144,14 @@ ul.extra-skills li i {
 
 
 .pricing-item .pricing-header .price:before {
-    content: '$';
+    content: '₹';
 }
 
 .pricing-item .pricing-header .price:after {
     font-size: 16px;
     font-weight: 400;
     color: var(--main-color);
-    content: '/Hour';
+    content: '/Project';
 }
 
 .pricing-item .pricing-details {
